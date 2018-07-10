@@ -1,0 +1,18 @@
+{
+  "TestPaySignService22222": {
+    "TestDb": {
+      #Test "£$£"$  Comment
+      "TestLogsConnString": "${TestLogsConnStringValue}:[RabbitMq, Logs, AzureBlobStorage]",
+      "TestLogsConnString2": "${TestLogsConnStringValue2}:[AzureTableStorage]"
+    },
+    "TestDb2": {
+      "TestLogsConnString": "${TestLogsConnStringValue}:[AzureBlobStorage]"
+    }
+  },
+  "TestMetricsServiceClient": {
+    "TestServiceUrl": "http://0.0.0.0:0"
+  },
+  "TestQuanta": {
+    "TestApiUrl": "http://0.0.0.0:0"
+  }
+}
