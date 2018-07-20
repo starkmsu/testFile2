@@ -2,11 +2,11 @@
   "TestPaySignService22222": {
     "TestDb": {
       #Test "£$£"$  Comment
-      "TestLogsConnString": "${TestLogsConnStringValue}:[RabbitMq, Logs, AzureBlobStorage]",
-      "TestLogsConnString2": "${TestLogsConnStringValue2}:[AzureTableStorage]"
+      "TestLogsConnString": "${aTestLogsConnStringValue}:[RabbitMq, Logs, AzureBlobStorage]",
+      "TestLogsConnString2": "${bTestLogsConnStringValue2}:[AzureTableStorage]"
     },
     "TestDb2": {
-      "TestLogsConnString": "${TestLogsConnStringValue}:[AzureBlobStorage]"
+      "TestLogsConnString": "${cTestLogsConnStringValue}:[AzureBlobStorage]"
     }
   },
   "TestMetricsServiceClient": {
