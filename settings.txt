@@ -1,18 +1,10 @@
-{
-  "TestPaySignService22222": {
-    "TestDb": {
-      #Test "£$£"$  Comment
-      "TestLogsConnString": "${aTestLogsConnStringValue}:[RabbitMq, Logs, AzureBlobStorage]",
-      "TestLogsConnString2": "${bTestLogsConnStringValue2}:[AzureTableStorage]"
-    },
-    "TestDb2": {
-      "TestLogsConnString": "${cTestLogsConnStringValue}:[AzureBlobStorage]"
-    }
-  },
-  "TestMetricsServiceClient": {
-    "TestServiceUrl": "http://0.0.0.0:0"
-  },
-  "TestQuanta": {
-    "TestApiUrl": "http://0.0.0.0:0"
-  }
-}
+SomePropertyName:
+  settings-key: Placeholder1
+  types:
+    -AzureTableStorage
+    -Logs
+    
+SomeArray:
+  settings-key: Placeholder2
+  types:
+    -Array
