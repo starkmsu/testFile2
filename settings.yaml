@@ -1,0 +1,56 @@
+TestPaySignService22222:
+    TestDb:
+        TestLogsConnString:
+            settings-key: TestLogsConnStringValue
+            types:
+                - Tag
+                - RabbitMq
+                - Logs
+                - AzureBlobStorage
+
+        TestLogsConnString2:
+            settings-Key: TestLogsConnStringValue2
+            types:
+                - AzureTableStorage
+    
+    TestDb2:
+        TestLogsConnString:
+            settings-key: TestLogsConnStringValue
+            types:
+                - AzureBlobStorage
+    
+    TestJson:
+        TestJsonProperty:
+            settings-key: TestJsonKey
+            types:
+                - Json
+
+        TestJsonArrayProperty:
+            settings-key: TestJsonArrayKey
+            types:
+                - JsonArray
+    
+    TestDb3:
+        TestLogsConnString:
+            settings-key: TestLogsConnStringValue3
+            types:
+                - MongoDB
+    TestDb4:
+        TestLogsConnString:
+            settings-key: TestLogsConnStringValue
+            types:
+                - MongoDB
+
+TestCandleHistoryServiceClient:
+    TestServiceUrl:
+        settings-key: TestCandleHistoryServiceUriValue
+        types:
+            -Redis
+
+TestDutchAuctionClient:
+    TestServiceUrl:
+        settings-key: TestDutchAuctionServiceUriValue
+
+TestMarketProfileServiceClient:
+    TestServiceUrl:
+        settings-key: TestMarketProfileServiceUriValue
