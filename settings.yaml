@@ -3,8 +3,8 @@ TestPaySignService22222:
         TestLogsConnString:
             settings-key: TestLogsConnStringValue
             types:
-                - Tag
-                - RabbitMq
+                -Tag
+                -RabbitMq
                 - Logs
                 - AzureBlobStorage
 
