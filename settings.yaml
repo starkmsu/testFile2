@@ -9,7 +9,7 @@ TestPaySignService22222:
                 - AzureBlobStorage
 
         TestLogsConnString2:
-            settings-Key: TestLogsConnStringValue2
+            settings-key: TestLogsConnStringValue2
             types:
                 - AzureTableStorage
     
