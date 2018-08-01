@@ -12,6 +12,10 @@ TestPaySignService22222:
             settings-key: TestLogsConnStringValue2
             types:
                 - AzureTableStorage
+                
+        TestStringConstant: "TestConstantName"
+        
+        TestNumberConstant: 8
     
     TestDb2:
         TestLogsConnString:
