@@ -33,6 +33,11 @@ TestPaySignService22222:
             settings-key: TestJsonArrayKey
             types:
                 - JsonArray
+                
+        TestJsonArrayProperty2:
+            settings-key: TestJsonArrayKey2
+            types:
+                - JsonArray
     
     TestDb3:
         TestLogsConnString:
