@@ -7,11 +7,13 @@ TestPaySignService22222:
                 - RabbitMq
                 - Logs
                 - AzureBlobStorage
+                - Optional
 
         TestLogsConnString2:
             settings-key: TestLogsConnStringValue2
             types:
                 - AzureTableStorage
+                - Optional
                 
         TestStringConstant: "TestConstantName"
         
