@@ -22,7 +22,7 @@ TestPaySignService22222:
     
     TestDb2:
         TestLogsConnString:
-            settings-key: TestLogsConnStringValue
+            settings-key: TestLogsConnStringValue3
             types:
                 - AzureBlobStorage
     
@@ -44,12 +44,12 @@ TestPaySignService22222:
     
     TestDb3:
         TestLogsConnString:
-            settings-key: TestLogsConnStringValue3
+            settings-key: TestLogsConnStringValue4
             types:
                 - MongoDB
     TestDb4:
         TestLogsConnString:
-            settings-key: TestLogsConnStringValue
+            settings-key: TestLogsConnStringValue5
             types:
                 - MongoDB
 
