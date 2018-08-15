@@ -8,8 +8,6 @@ TestPaySignService22222:
                 - Logs
                 - AzureBlobStorage
                 - Optional
-                - Manual
-                - TestTag
 
         TestLogsConnString2:
             settings-key: TestLogsConnStringValue2
