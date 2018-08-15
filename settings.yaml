@@ -11,7 +11,6 @@ TestPaySignService22222:
                 - Manual
                 - TestTag
                 - TestTag2
-                - TestTag3
 
         TestLogsConnString2:
             settings-key: TestLogsConnStringValue2
