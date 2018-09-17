@@ -1,7 +1,7 @@
 TestPaySignService22222:
     TestDb:
         TestLogsConnString:
-            settings-key: TestLogsConnStringValueTestForUpdate222
+            settings-key: TestLogsConnStringValueTestForUpdate22222
             types:
                 - Tag
                 - RabbitMq
